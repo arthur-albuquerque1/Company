@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(29, 29, 29);
+}
+.big-container {
+    max-width: 80%;
+    margin: auto;
+}
+header {
+    background-color: #0c103a;
+    max-width: 100%;
+    text-align: center;
+}
+.small-container {
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-content {
+    text-align: center;
+    color: white;
+    max-width: 60%;
+    margin: auto;
+    padding-top: 12%;
+    padding-bottom: 18%;
+}
+.main-content p {
+    font-size: 15px;
+    padding-top: 8px;
+}
+.main-content h2 {
+    font-size: 30px;
+}
+#button {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(241, 108, 12);
+    border-radius: 10px;
+}
+#button:hover {
+    background-color: rgb(235, 130, 55);
+}
+.bottom-container {
+    background-color: #ffffff;
+}
+#bottom-text {
+    color: rgb(100, 99, 99);
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+.bottom-carousel {
+    margin: auto;
+    position: relative;
+    top: -58px;
+    text-align: center;
+    filter: grayscale(100%);
+}
+.bottom-images {
+    width: 100px;
+}
+#img3 {
+    position: relative;
+    top: 8px;
+}
+#img5 {
+    position: relative;
+    top: 30.7px;
+}
+#img6 {
+    position: relative;
+    top: 10px;
+    width: 70px;
+}
+@media only screen and (max-width: 643px) {
+    .bottom-images {
+        padding-top: 70px;
+    }
+}
+@media only screen and (max-width: 388px) {
+    .bottom-images {
+        padding-top: 70px;
+    }
+    #button {
+        position: relative;
+        right: 46px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .bottom-images {
+        padding-top: 70px;
+    }
+    #button {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media only screen and (max-width: 280px) {
+    .bottom-images {
+        padding-top: 70px;
+    }
+    #button {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 10px;
+        position: relative;
+        left: -10px;
+    }
+}
+
