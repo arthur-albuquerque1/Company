@@ -3,7 +3,7 @@ Página para empresa fictícia
 
 Acesse a página aqui:
 
-<img src="">
+<img src="./images/site.jpeg">
 
 Tecnologias utilizadas no projeto:
 <ul>
